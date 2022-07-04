@@ -1,0 +1,47 @@
+.Weather-app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(30,164,195,0.9976365546218487) 35%, rgba(255,0,164,1) 100%);
+}
+
+.weather-box{
+background-color: #DEEBF0;
+width: 40%;
+height: 80%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+border-radius: 20px;
+}
+
+.temperature{
+    margin: 15px 0;
+    display: inline-block;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+button{
+    padding: 15px;
+    background-color: lightblue;
+    font-weight: bolder;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+
+
+
+/*.bgr-celsius{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,115,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.brg-fahrenheit{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(30,164,195,0.9976365546218487) 35%, rgba(255,0,164,1) 100%
+}*/
